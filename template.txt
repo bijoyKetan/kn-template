@@ -14,30 +14,9 @@
             font-size: 14px;
             padding: 15px 30px; /* Reduced padding for smaller footer */
         }
-        .footer-content a, .important-links a {
+        .footer-content a {
             text-decoration: none;
             color: #3498db; /* Styling links to match the brand color */
-        }
-        .center-text {
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        @media screen and (max-width: 480px) {
-            .responsive-table {
-                display: block;
-            }
-            .main-content, .important-links {
-                width: 100% !important;
-            }
-            .important-links {
-                order: 2; /* For flex or grid items, ignored by table display */
-                margin-top: 20px;
-            }
-            .responsive-table td {
-                display: block;
-                width: 100% !important;
-            }
         }
     </style>
 </head>
@@ -59,34 +38,24 @@
                             <img src="https://goodgallery-photos-originals-win-ksu2vbmijir-photos.s3-us-west-2.amazonaws.com/54f973a4-1e4c-48e1-8e18-4f52fdeb8589/finiqeyrfqj.jpg" alt="KetaNuva Studios Photography" width="600" style="display: block; width: 100%; max-width: 600px;">
                         </td>
                     </tr>
-                    <!-- Center Aligned Text -->
-                    <tr>
-                        <td align="center" class="center-text">
-                            <p>SAMPLE GALLERIES & PACKAGES IN IMPORTANT LINKS SECTION</p>
-                        </td>
-                    </tr>
                     <!-- Content with Sidebar -->
                     <tr>
                         <td bgcolor="#ffffff">
-                            <table role="presentation" class="responsive-table" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
+                                    <!-- Main Content -->
+                                    <td width="450" valign="top" style="padding: 20px 30px;">
+                                        <p>Thank you for your inquiry. We're a boutique photography and cinematography team specializing in fine portraiture and documentary storytelling. We'd love to document your special moments.</p>
+                                        <h2>Next Steps</h2>
+                                        <p>Take some time to review our sample galleries. See the links in Important Links Section.</p>
+                                    </td>
                                     <!-- Sidebar for Important Links -->
-                                    <td class="important-links" width="150" valign="top" style="width: 25%; float: left;">
+                                    <td width="150" valign="top" class="important-links">
                                         <h3>Important Links</h3>
                                         <p><a href="https://ketanuva.smugmug.com/Sample-Galleries/South-Asian-Galleries/n-TJh3Ww">South Asian Wedding Galleries</a></p>
                                         <p><a href="https://ketanuva.smugmug.com/Sample-Galleries/n-r5fJx6">Traditional American Wedding Galleries</a></p>
                                         <p><a href="https://drive.google.com/file/d/1XZ8ANQg0WkVIHdwlIT0NJtrFZn8ibuRq/view">Single Day Wedding Packages</a></p>
                                         <p><a href="https://drive.google.com/file/d/1wZbZGEaMIDRnMco4xbvGLlKFzcqo4dy6/view">Multi-Day Wedding Packages</a></p>
-                                    </td>
-                                    <!-- Main Content -->
-                                    <td class="main-content" width="450" valign="top" style="width: 75%; float: left;">
-                                        <p>Thank you for your inquiry. We're a boutique photography and cinematography team specializing in fine portraiture and documentary storytelling. We'd love to document your special moments.</p>
-                                        <h2>Next Steps</h2>
-                                        <ul>
-                                            <li>Review our sample galleries.</li>
-                                            <li>Review our commonly used collections for single and multi-day events.</li>
-                                            <li>If you feel that we'd be a good fit for one another, please respond to this email and we'd love to set up a call to discuss further.</li>
-                                        </ul>
                                     </td>
                                 </tr>
                             </table>
