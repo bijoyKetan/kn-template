@@ -8,15 +8,33 @@
         .important-links {
             background-color: #f2f2f2; /* Slight gray background */
             padding: 20px;
-            text-align: center; /* Center the text in the box */
+            text-align: left; /* Align text to the left */
+            width: 40%; /* Set width to 2/5 of the parent container */
+        }
+        .main-content {
+            width: 60%; /* Set width to 3/5 of the parent container */
+            padding: 20px 30px; /* Padding around the content */
         }
         .footer-content {
             font-size: 14px;
             padding: 15px 30px; /* Reduced padding for smaller footer */
         }
-        .footer-content a {
+        .footer-content a, .important-links a {
             text-decoration: none;
             color: #3498db; /* Styling links to match the brand color */
+        }
+        .important-links ul {
+            list-style-type: disc; /* Style the list with discs */
+            padding-left: 20px; /* Properly align list inside the div */
+            margin: 0; /* Remove default margin */
+        }
+        .important-links h3 {
+            text-align: center; /* Center-align the header */
+            margin-bottom: 10px; /* Reduce space below the header */
+        }
+        .full-width-text {
+            padding: 20px 30px; /* Consistent padding with the rest of the content */
+            width: 100%; /* Full width */
         }
     </style>
 </head>
@@ -44,21 +62,33 @@
                             <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
                                     <!-- Main Content -->
-                                    <td width="450" valign="top" style="padding: 20px 30px;">
+                                    <td class="main-content" valign="top">
                                         <p>Thank you for your inquiry. We're a boutique photography and cinematography team specializing in fine portraiture and documentary storytelling. We'd love to document your special moments.</p>
                                         <h2>Next Steps</h2>
-                                        <p>Take some time to review our sample galleries. See the links in Important Links Section.</p>
+                                        <ol>
+                                            <li>Review our sample galleries.</li>
+                                            <li>Review our commonly used collections for single and multi-day events.</li>
+                                            <li>If you feel that we'd be a good fit for one another, please respond to this email and we'd love to set up a call to discuss further.</li>
+                                        </ol>
                                     </td>
                                     <!-- Sidebar for Important Links -->
-                                    <td width="150" valign="top" class="important-links">
+                                    <td valign="top" class="important-links">
                                         <h3>Important Links</h3>
-                                        <p><a href="https://ketanuva.smugmug.com/Sample-Galleries/South-Asian-Galleries/n-TJh3Ww">South Asian Wedding Galleries</a></p>
-                                        <p><a href="https://ketanuva.smugmug.com/Sample-Galleries/n-r5fJx6">Traditional American Wedding Galleries</a></p>
-                                        <p><a href="https://drive.google.com/file/d/1XZ8ANQg0WkVIHdwlIT0NJtrFZn8ibuRq/view">Single Day Wedding Packages</a></p>
-                                        <p><a href="https://drive.google.com/file/d/1wZbZGEaMIDRnMco4xbvGLlKFzcqo4dy6/view">Multi-Day Wedding Packages</a></p>
+                                        <ul>
+                                            <li><a href="https://ketanuva.smugmug.com/Sample-Galleries/South-Asian-Galleries/n-TJh3Ww">South Asian Weddings</a></li>
+                                            <li><a href="https://ketanuva.smugmug.com/Sample-Galleries/n-r5fJx6">Traditional American Weddings</a></li>
+                                            <li><a href="https://drive.google.com/file/d/1XZ8ANQg0WkVIHdwlIT0NJtrFZn8ibuRq/view">Single-Day Packages</a></li>
+                                            <li><a href="https://drive.google.com/file/d/1wZbZGEaMIDRnMco4xbvGLlKFzcqo4dy6/view">Multi-Day Packages</a></li>
+                                        </ul>
                                     </td>
                                 </tr>
                             </table>
+                        </td>
+                    </tr>
+                    <!-- Additional Full Width Text -->
+                    <tr>
+                        <td bgcolor="#ffffff" class="full-width-text">
+                            <p>Please feel free to contact us with any questions you might have about our services or to schedule a meeting. We're excited to hear from you and look forward to capturing your special moments.</p>
                         </td>
                     </tr>
                     <!-- Footer -->
