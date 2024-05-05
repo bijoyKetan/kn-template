@@ -11,6 +11,13 @@
             /* Increase bottom margin to create more space between items */
         }
 
+        body,
+        td,
+        th {
+            font-family: 'Roboto', Arial, sans-serif;
+            /* Modern font with fallbacks */
+        }
+
         .main-content {
             width: 70%;
             /* Assuming you've set it to 70% earlier */
@@ -71,10 +78,16 @@
             width: 100%;
             /* Full width */
         }
+
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
     </style>
 </head>
 
-<body style="font-family: Arial, sans-serif; background-color: #ffffff; color: #333333; margin: 0; padding: 0;">
+<!-- <body style="font-family: Arial, sans-serif; background-color: #ffffff; color: #333333; margin: 0; padding: 0;"> -->
+
+<body
+    style="font-family: 'Roboto', Arial, sans-serif; background-color: #ffffff; color: #333333; margin: 0; padding: 0; line-height: 1.4;">
+
     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
         <tr>
             <td align="center" style="padding: 20px 0;">
@@ -83,14 +96,20 @@
                     style="border-collapse: collapse;">
                     <tr>
                         <td bgcolor="#ffffff" align="center" style="padding: 40px 30px 20px 30px;">
-                            <h1 style="margin: 0;">Welcome to KetaNuva Studios</h1>
-                            <h2 style="font-size: 18px; margin: 10px 0;">Capturing Memories | Narrating Stories</h2>
+                            <h1 style="margin: 0; font-family: 'Dancing Script', 'Roboto';">Welcome to KetaNuva Studios
+                            </h1>
+                            <h4
+                                style="font-size: 18px; margin: 5px 0 10px 0; font-family: 'Dancing Script', 'Roboto', cursive;">
+                                Capturing Memories | Narrating Love Stories</h4>
+                            <hr
+                                style="height: 1px; background-color: #d3d3d3; border: none; margin-top: 5px; margin-bottom: 5px;">
+
                         </td>
                     </tr>
                     <!-- Hero Image -->
                     <tr>
                         <td bgcolor="#ffffff" align="center" style="padding: 0;">
-                            <img src="https://goodgallery-photos-originals-win-ksu2vbmijir-photos.s3-us-west-2.amazonaws.com/54f973a4-1e4c-48e1-8e18-4f52fdeb8589/finiqeyrfqj.jpg"
+                            <img src="https://goodgallery-photos-originals-win-ksu2vbmijir-photos.s3-us-west-2.amazonaws.com/54f973a4-1e4c-48e1-8e18-4f52fdeb8589/r5apjzdbgx5.jpg"
                                 alt="KetaNuva Studios Photography" width="600"
                                 style="display: block; width: 100%; max-width: 600px;">
                         </td>
@@ -109,7 +128,7 @@
                                         <ol>
                                             <li>Review our sample galleries (style).</li>
                                             <li>Review our packages (pricing).</li>
-                                            <li>Schedule a call to by clicking the button below.</li>
+                                            <li>Schedule a call to by clicking the button "Schedule Meeting".</li>
                                         </ol>
                                     </td>
 
@@ -142,8 +161,7 @@
                                             </tr>
                                             <tr>
                                                 <td align="center" style="border-radius: 4px; " bgcolor="#3498db">
-                                                    <a href="mailto:info@ketanuva.com?subject=Scheduling a Consultation"
-                                                        target="_blank"
+                                                    <a href="https://forms.gle/r6DdkHyoFLvM4jYq8" target="_blank"
                                                         style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; padding: 12px 25px; border-radius: 4px; display: inline-block;">
                                                         Schedule Meeting
                                                     </a>
@@ -159,9 +177,11 @@
                     <!-- Additional Full Width Text -->
                     <tr>
                         <td bgcolor="#ffffff" class="full-width-text">
-                            <p>Please feel free to contact us with any questions you might have about our services or to
-                                schedule a meeting. We're excited to hear from you and look forward to capturing your
-                                special moments.</p>
+                            <p>Please take some time to review our sample galleriesa and pricing information from the
+                                links in Important Links section.
+                                The packages can be customized, if needed. Based on out style and pricing, if you think
+                                we'd be a good fit, please scheudle a call with us and we'd love to chat more!
+                            </p>
                         </td>
                     </tr>
                     <!-- Footer -->
