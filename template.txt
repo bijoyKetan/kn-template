@@ -109,7 +109,7 @@
                     <!-- Hero Image -->
                     <tr>
                         <td bgcolor="#ffffff" align="center" style="padding: 0;">
-                            <img src="https://goodgallery-photos-originals-win-ksu2vbmijir-photos.s3-us-west-2.amazonaws.com/54f973a4-1e4c-48e1-8e18-4f52fdeb8589/r5apjzdbgx5.jpg"
+                            <img src="https://goodgallery-photos-originals-win-ksu2vbmijir-photos.s3-us-west-2.amazonaws.com/54f973a4-1e4c-48e1-8e18-4f52fdeb8589/mmnq5fjvefn.jpg"
                                 alt="KetaNuva Studios Photography" width="600"
                                 style="display: block; width: 100%; max-width: 600px;">
                         </td>
