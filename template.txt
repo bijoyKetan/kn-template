@@ -128,7 +128,7 @@
                                         <ol>
                                             <li>Review our sample galleries (style).</li>
                                             <li>Review our packages (pricing).</li>
-                                            <li>Schedule a call to by clicking the button "Schedule Meeting".</li>
+                                            <li>Schedule a call by clicking the button "Schedule Meeting".</li>
                                         </ol>
                                     </td>
 
@@ -141,10 +141,10 @@
                                                     <ul>
                                                         <li><a
                                                                 href="https://ketanuva.smugmug.com/Sample-Galleries/South-Asian-Galleries/n-TJh3Ww">South
-                                                                Asian Weddings</a></li>
+                                                                Asian Galleries</a></li>
                                                         <li><a
                                                                 href="https://ketanuva.smugmug.com/Sample-Galleries/n-r5fJx6">Traditional
-                                                                American Weddings</a></li>
+                                                                American Galleries</a></li>
                                                         <li><a
                                                                 href="https://drive.google.com/file/d/1XZ8ANQg0WkVIHdwlIT0NJtrFZn8ibuRq/view">Single-Day
                                                                 Packages</a></li>
@@ -177,10 +177,10 @@
                     <!-- Additional Full Width Text -->
                     <tr>
                         <td bgcolor="#ffffff" class="full-width-text">
-                            <p>Please take some time to review our sample galleriesa and pricing information from the
-                                links in Important Links section.
-                                The packages can be customized, if needed. Based on out style and pricing, if you think
-                                we'd be a good fit, please scheudle a call with us and we'd love to chat more!
+                            <p>Please take some time to review our sample galleries and pricing information from the
+                                links in the Important Links section. The packages can be customized if needed.
+                                Based on our style and pricing, if you think we'd be a good fit, please schedule a call
+                                with us and we'd love to chat more!
                             </p>
                         </td>
                     </tr>
